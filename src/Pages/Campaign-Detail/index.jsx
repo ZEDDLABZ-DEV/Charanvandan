@@ -18,13 +18,13 @@ import { SevaCard } from '../../Components/SevaCard';
 import { Accordion } from 'react-bootstrap-accordion';
 import 'react-bootstrap-accordion/dist/index.css';
 
-const ServiceDetails = () => {
+const CampaignDetails = () => {
   const items = [
     {
       key: '1',
       label: 'Sevas',
       children: (
-        <div className="flex flex-wrap gap-6">
+        <div className="flex w-full flex-wrap gap-6">
           <SevaCard
             image={maagauri}
             id={1}
@@ -51,7 +51,7 @@ const ServiceDetails = () => {
             image={KanyaPuja}
             id={1}
             title="Kanya Puja"
-            description=":- Kumari Puja is done to get the results of auspicious works. By worshiping a girl, one gets respect, Lakshmi, knowledge and brilliance and also destroys obstacles, fear and enemies. Mother Durga is very happy with the worship of girls. No Prasad will be given in the Puja."
+            description="Kumari Puja is done to get the results of auspicious works. By worshiping a girl, one gets respect, Lakshmi, knowledge and brilliance and also destroys obstacles, fear and enemies. Mother Durga is very happy with the worship of girls. No Prasad will be given in the Puja."
           />
         </div>
       ),
@@ -131,7 +131,7 @@ const ServiceDetails = () => {
             bows down and touches the feet or lotus feet of a revered figure,
             typically a deity, guru, or elder. While the act of Charanvandan
             itself is consistent, the context in which it is performed may vary.
-            Here are different types of sevas (services or offerings) that can
+            Here are different types of sevas (Campaigns or offerings) that can
             involve Charanvandan:Deity Seva: In temples or places of worship,
             individuals often perform Charanvandan as part of their devotion to
             the deity.
@@ -166,8 +166,8 @@ const ServiceDetails = () => {
     <>
       <Header />
 
-      <div className="flex px-[100px] py-[50px]">
-        <div className="w-1/3">
+      <div className="flex flex-col lg:flex-row px-[10px] lg:px-[100px] py-[50px]">
+        <div className="w-full lg:w-1/2 ">
           <img src={navratri} className="w-full" alt="" />
         </div>
         <div className="flex-1 p-4">
@@ -178,7 +178,7 @@ const ServiceDetails = () => {
           <p className="leading-6 text-[14px]">
             On the occasion of Shardiya Navratri, the festival of worship of the
             mother of the world, Charnvandan has brought a special service to
-            worship the Maa Durga.In which there are services like Maha Gauri
+            worship the Maa Durga.In which there are Campaigns like Maha Gauri
             Puja and Archana, Durga Havan, Kanya Puja etc. <br /> <br /> You can
             get this service done especially at Chamundeshwari Mata temple area
             in Mysore. You can also book your service by joining Charanvandan on
@@ -188,26 +188,26 @@ const ServiceDetails = () => {
 
           <div className="flex gap-4 flex-col py-3">
             <h3 className="text-[20px] font-semibold">Share on:</h3>
-            <div className="flex gap-4">
-              <button className="flex justify-center items-center gap-2 py-2 rounded-md px-4 border-[#FFC107] border-[2px]">
+            <div className="flex gap-4 flex-wrap">
+              <button className="flex justify-center items-center gap-2 py-2 rounded-md px-4 border-primary border-[2px]">
                 {' '}
                 <BsWhatsapp /> <span> Whatsapp</span>{' '}
               </button>
-              <button className="flex justify-center items-center gap-2 py-2 rounded-md px-4 border-[#FFC107] border-[2px]">
+              <button className="flex justify-center items-center gap-2 py-2 rounded-md px-4 border-primary border-[2px]">
                 {' '}
                 <BsFacebook />
                 <span> Facebook </span>
               </button>
-              <button className="flex justify-center items-center gap-2 py-2 rounded-md px-4 border-[#FFC107] border-[2px]">
+              <button className="flex justify-center items-center gap-2 py-2 rounded-md px-4 border-primary border-[2px]">
                 {' '}
                 <BsInstagram />
                 <span> Instagram </span>
               </button>
-              <button className="flex justify-center items-center gap-2 py-2 rounded-md px-4 border-[#FFC107] border-[2px]">
+              <button className="flex justify-center items-center gap-2 py-2 rounded-md px-4 border-primary border-[2px]">
                 {' '}
                 <BsTwitter /> <span> Twitter </span>
               </button>
-              <button className="flex justify-center items-center gap-2 py-2 rounded-md px-4 border-[#FFC107] border-[2px]">
+              <button className="flex justify-center items-center gap-2 py-2 rounded-md px-4 border-primary border-[2px]">
                 {' '}
                 <BsYoutube /> <span> Youtube </span>
               </button>
@@ -216,7 +216,7 @@ const ServiceDetails = () => {
         </div>
       </div>
 
-      <div className="px-[100px]">
+      <div className=" lg:px-[100px] px-[10px]">
         <Tabs items={items} defaultActiveKey={1} />
       </div>
 
@@ -225,4 +225,4 @@ const ServiceDetails = () => {
   );
 };
 
-export { ServiceDetails };
+export { CampaignDetails };

@@ -16,16 +16,16 @@ const Contact = () => {
             </div>
         </div>
 
-        <div className="flex px-[100px] py-[50px]">
+        <div className="flex flex-col-reverse gap-4 md:flex-row lg:px-[100px] px-[10px] py-[50px]">
             <div className="flex-1 flex flex-col gap-8 justify-center">
-                <div className="flex items-start gap-4">
+                <div className="flex items-start gap-4 pt-[40px]">
 
                 {/*<FaRegAddressCard className="text-[30px]" /> */}
                 <div className="flex flex-col">
                     {/* <h3 className="text-[18px] font-semibold">Address</h3> */}
-                    <p className="leading-6">
-                        {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Quaerat illum nihil unde reiciendis impedit nulla, <br /> debitis iste eius dolore molestiae? */}
-                    </p>
+                    {/* <p className="leading-6">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. <br /> Quaerat illum nihil unde reiciendis impedit nulla, <br /> debitis iste eius dolore molestiae?
+                    </p> */}
                 </div>
                 </div>
 
@@ -83,7 +83,7 @@ const Contact = () => {
 
                     <div className="flex flex-col">
 
-                    <button className="bg-[#FFC107] rounded-md py-[6px]"> Send Message </button>
+                    <button className="bg-primary rounded-md py-[6px]"> Send Message </button>
                     </div>
                 </form>
             </div>
