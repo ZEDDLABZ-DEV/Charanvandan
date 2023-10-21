@@ -1,5 +1,6 @@
 import React from "react";
 import { BsFacebook, BsInstagram, BsLinkedin, BsTwitter, BsYoutube } from 'react-icons/bs'
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -13,11 +14,11 @@ const Footer = () => {
         <div className="w-[200px] px-[0px] lg:px-[10px]">
             <h3 className="text-[20px]  mb-4 font-semibold">Links</h3>
             <ul className="flex flex-col gap-2">
-                <li>Home</li>
-                <li>Campaign</li>
-                <li>About</li>
-                <li>Blog</li>
-                <li>Contact</li>
+                <li> <Link to="/">Home </Link></li>
+                <li> <Link to="/campaigns"> Campaign </Link></li>
+                <li> <Link to="/about">About</Link> </li>
+                <li> <Link to="/about"> Blog </Link></li>
+                <li> <Link to="/contact"> Contact</Link></li>
             </ul>
 
 
@@ -27,8 +28,8 @@ const Footer = () => {
         <div className="w-[200px] px-[0px] lg:px-[10px]">
             <h3 className="text-[20px] mb-4 font-semibold">Support</h3>
             <ul className="flex flex-col gap-2">
-                <li>Privacy Policy</li>
-                <li>Terms and conditions</li>
+                <li> <Link to="/privacy-policy"> Privacy Policy </Link></li>
+                <li> <Link to="/terms-and-condition"> Terms and conditions </Link></li>
               
             </ul>
 

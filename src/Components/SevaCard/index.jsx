@@ -10,7 +10,7 @@ const SevaCard = ({ image, title, description, id }) => {
     <img src={image} alt="" />
     <h3 className="text-[20px] font-semibold">{title}</h3>
     <p className="text-[14px] leading-6">{description}</p>
-    <button className="bg-primary px-3 py-2 rounded-lg w-full" onClick={() => navigate(`/service-details/${id}`)}>Book Now</button>
+    <button className="bg-primary px-3 py-2 rounded-lg w-full" onClick={() => navigate(`/campaign-details/${id}`)}>Book Now</button>
   </div>
   )
 };

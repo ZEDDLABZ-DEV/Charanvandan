@@ -12,11 +12,11 @@ function App() {
     <Routes>
       <Route path='*' Component={NotFound} />
       <Route path='/' Component={Home} />
-      <Route path='/services' Component={Campaign} />
-      <Route path='/service-details/:id' Component={CampaignDetails} />
+      <Route path='/campaigns' Component={Campaign} />
+      <Route path='/campaign-details/:id' Component={CampaignDetails} />
       <Route path='/contact' Component={Contact} />
-      <Route path='/terms-and-conditions' Component={TermsAndCondition} />
-      <Route path='/privacy-policies' Component={PrivacyPolicy} />
+      <Route path='/terms-and-condition' Component={TermsAndCondition} />
+      <Route path='/privacy-policy' Component={PrivacyPolicy} />
     </Routes>
   </BrowserRouter>
 }

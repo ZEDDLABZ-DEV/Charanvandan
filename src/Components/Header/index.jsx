@@ -30,7 +30,7 @@ const Header = () => {
 
       <ul className="h-full hidden md:flex flex-col md:flex-row justify-around items-center">
           <li> <Link to="/"> Home </Link></li>
-          <li> <Link to="/campaign"> Campaign </Link> </li>
+          <li> <Link to="/campaigns"> Campaign </Link> </li>
           <li> <Link to="/about">About</Link></li>
           <li> <Link to="/blog">Blog</Link></li>
           <li> <Link to="/contact">Contact</Link></li>
