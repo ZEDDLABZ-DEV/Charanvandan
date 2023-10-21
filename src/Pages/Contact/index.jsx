@@ -20,7 +20,7 @@ const Contact = () => {
             <div className="flex-1 flex flex-col gap-8 justify-center">
                 <div className="flex items-start gap-4">
 
-                <FaRegAddressCard className="text-[30px]" />
+                {/*<FaRegAddressCard className="text-[30px]" /> */}
                 <div className="flex flex-col">
                     {/* <h3 className="text-[18px] font-semibold">Address</h3> */}
                     <p className="leading-6">
