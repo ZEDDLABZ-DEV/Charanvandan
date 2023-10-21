@@ -20,7 +20,7 @@ const Header = () => {
 
   <ul className={`h-full ${ menuOpen ? 'flex' : 'hidden' }  gap-2 transition-transform md:hidden flex-col md:flex-row px-4`}>
           <li className="py-2 text-[16px] font-semibold"> <Link to="/"> Home </Link></li>
-          <li className="py-2 font-semibold"> <Link to="/campaign"> Campaign </Link> </li>
+          <li className="py-2 font-semibold"> <Link to="/campaigns"> Campaign </Link> </li>
           <li className="py-2 font-semibold"> <Link to="/about">About</Link></li>
           <li className="py-2 font-semibold"> <Link to="/blog">Blog</Link></li>
           <li className="py-2 font-semibold"> <Link to="/contact">Contact</Link></li>

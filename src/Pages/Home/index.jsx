@@ -10,9 +10,9 @@ import { Accordion } from 'react-bootstrap-accordion';
 import { Header } from '../../Components/Header';
 import { Footer } from '../../Components/Footer';
 import { SevaCard } from '../../Components/SevaCard';
-import 'react-bootstrap-accordion/dist/index.css';
 import { TestimonialCard } from '../../Components/TestimonialCard';
 import { SliderComp } from '../../Components/Slider';
+import 'react-bootstrap-accordion/dist/index.css';
 const Home = () => {
   const settings = {
     dots: true,
