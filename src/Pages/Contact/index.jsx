@@ -36,7 +36,7 @@ const Contact = () => {
                         <h3 className="text-[18px] font-semibold">Contact</h3>
                         <p className="leading-6">
                         <ul>
-                            <li>(+91)639-065-8852</li>
+                            
                             <li>info@charanvandan.com</li>
                         </ul>
                         </p>
